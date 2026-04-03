@@ -1,0 +1,150 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea;
+  line-height: 1.5;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+/* Encabezado */
+.header-container {
+  background-color: #0b8cdc;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.header-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header-container h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+/* Logo */
+.icon img {
+  width: 220px;
+  height: auto;
+  display: block;
+  margin: 2 auto 20px auto;
+}
+
+/* Menú */
+.nav-box {
+  background-color: #0077cc;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto 40px auto;
+}
+
+.nav-box ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-box a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-box a:hover {
+  color: #ffcc00;
+}
+
+/* Main con cards */
+main {
+  background-color: #13a1c8;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+  padding: 0 10px 15px 10px;
+}
+
+/* Footer con redes */
+footer {
+  background-color: #12d8c4;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.networks ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.networks a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.networks a:hover {
+  color: #c80929;
+}
