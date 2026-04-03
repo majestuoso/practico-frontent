@@ -135,7 +135,7 @@ footer {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 75px;
 }
 
 .networks a {
@@ -147,4 +147,97 @@ footer {
 
 .networks a:hover {
   color: #c80929;
+}
+
+/* Reset básico: elimina márgenes y paddings por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Encabezado principal */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #0b8cdc;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Galería de autos */
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.galeria img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05); /* efecto zoom al pasar el mouse */
+}
+
+/* Sección de contacto */
+.contacto {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contacto h2 {
+  font-size: 2rem;
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+.contacto p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+/* Botón de volver */
+.volver {
+  text-align: center;
+}
+
+.volver button {
+  background-color: #0b8cdc;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.volver button:hover {
+  background-color: #ffcc00;
+  color: #000;
 }

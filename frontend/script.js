@@ -1,31 +1,31 @@
 const cards = [
   {
-    title: "Card 1",
+    title: "cuotas de $370",
     
     image: "img/fiat1.jpeg",
   },
   {
-    title: "Card 2",
+    title: "promo bancaria",
     //description: "This is the description for Card 2.",
     image: "img/fiat2.jpeg",
   },
   {
-    title: "Card 3",
+    title: "entrega y cuotas fijas!!!!",
    // description: "This is the description for Card 3.",
     image: "img/fiat3.jpeg",
   },
   {
-    title: "Card 4",
+    title: "prestamos personales",
    // description: "This is the description for Card 4.",
     image: "img/fiat4.jpeg",
   },
   {
-    title: "Card 5",
+    title: "anotate con tu dni",
    // description: "This is the description for Card 5.",
     image: "img/fiat5.jpeg",
   },
   {
-    title: "Card 6",
+    title: "test drive",
    // description: "This is the description for Card 6.",
     image: "img/fiat6.jpeg",
   },
