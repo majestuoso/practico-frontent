@@ -1,39 +1,39 @@
 /* Reset básico */
-* {
+/* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+}/* Estilo general del body */
 
-body {
+/*body {
   font-family: Arial, sans-serif;
   background-color: #eaeaea;
   line-height: 1.5;
-}
+}*/
 
 /* Contenedor principal */
 .container {
   max-width: 1200px;
-  margin: 40px auto;
-  padding: 30px;
-  background-color: #f9f9f9;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: #979191;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  /*box-shadow: 0 0 15px rgba(29, 6, 132, 0.15);*/
 }
 
-/* Encabezado */
+/* Encabezado 
 .header-container {
-  background-color: #0b8cdc;
-  color: #fff;
+  background-color: #d4122f;
+  color: #820909;
   text-align: center;
   padding: 40px 20px;
-  margin-bottom: 40px;
-  border-radius: 8px;
-}
+  margin-bottom: 80px;
+  border-radius: 9px;
+}*/
 
 .header-container h1 {
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .header-container h2 {
@@ -43,31 +43,31 @@ body {
 
 /* Logo */
 .icon img {
-  width: 220px;
+  width: 170px;
   height: auto;
   display: block;
-  margin: 2 auto 20px auto;
+  margin: 2 auto 19px auto;
 }
 
 /* Menú */
 .nav-box {
-  background-color: #0077cc;
+  background-color: #064b7c;
   padding: 20px;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
   width: fit-content;
-  margin: 0 auto 40px auto;
+  margin: 1px auto 20px auto;
 }
 
 .nav-box ul {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 70px;
 }
 
 .nav-box a {
   text-decoration: none;
-  color: #fff;
+  color: #171616;
   font-weight: bold;
   transition: color 0.3s ease;
 }
@@ -78,8 +78,8 @@ body {
 
 /* Main con cards */
 main {
-  background-color: #13a1c8;
-  padding: 40px;
+  background-color: #084554;
+  padding: 50px;
   border-radius: 8px;
   margin-bottom: 40px;
 }
@@ -93,9 +93,9 @@ main {
 
 .card {
   width: 250px;
-  background-color: #fff;
+  background-color: #b4a0a0;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(19, 2, 2, 0.15);
   overflow: hidden;
   transition: transform 0.3s ease;
 }
@@ -113,7 +113,7 @@ main {
 .card h2 {
   font-size: 1.2rem;
   margin: 10px 0;
-  color: #333;
+  color: #260ad9;
 }
 
 .card p {
@@ -124,7 +124,7 @@ main {
 
 /* Footer con redes */
 footer {
-  background-color: #12d8c4;
+  background-color: #152826;
   color: #fff;
   text-align: center;
   padding: 40px;
@@ -140,13 +140,13 @@ footer {
 
 .networks a {
   text-decoration: none;
-  color: #fff;
+  color: #aa0c0c;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .networks a:hover {
-  color: #c80929;
+  color: #23060b;
 }
 
 /* Reset básico: elimina márgenes y paddings por defecto */
@@ -159,7 +159,7 @@ footer {
 /* Estilo general del body */
 body {
   font-family: Arial, sans-serif;
-  background-color: #eaeaea;
+  background-color: #1d1b1b;
   color: #333;
   line-height: 1.5;
   padding: 20px;
@@ -169,7 +169,7 @@ body {
 h1 {
   text-align: center;
   font-size: 2.5rem;
-  color: #0b8cdc;
+  color: #062233;
   margin-bottom: 10px;
 }
 
