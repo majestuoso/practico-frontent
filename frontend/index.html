@@ -1,77 +1,71 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link
-			rel="stylesheet"
-			href="style.css" />
-	</head>
-	<body>
-        <div class="container">
-            <h1>BAHIA AUTOMOTORES</h1>
-            <h2>Los mejores autos al mejor precio</h2>
-           
-			<header>
-				<div class="icon">
-					<img
-						src="img/logo.png"
-						alt="Logo Bahia Automotores" />
-				</div>
-                <div class="nav-box">
-				<nav>
-					<ul>
-						<li><a href="inicio.html">inicio.</a></li>
-						<li><a href="">productos</a></li>
-					</ul>
-				</nav>
-                </div>
-			</header>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bahía Automotores</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>BAHIA AUTOMOTORES</h1>
+    <h2>Los mejores autos al mejor precio</h2>
 
-			<main>
-				<div class="cards" id="cards">
-				</div>
-			</main>
+    <header>
+      <div class="icon">
+        <img src="img/logo.png" alt="Logo Bahia Automotores" />
+      </div>
+      <div class="nav-box">
+        <nav>
+          <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+			 <li><a href="productos.html">Productos</a></li>
+             </ul>
+        </nav>
+      </div>
+    </header>
 
-			<footer>
-				<div class="networks">
-					<ul>
-						<ul class="social-list">
-    <li>
-        <a href="https://www.facebook.com/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
-            <div class="text">
+    <main>
+      <!-- Aquí se renderizan las cards locales y las de CarAPI -->
+      <div class="cards" id="cards"></div>
+    </main>
+
+    <footer>
+      <div class="networks">
+        <ul class="social-list">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+              <div class="text">
                 <strong>Facebook</strong>
                 <span>Seguinos</span>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.instagram.com/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
-            <div class="text">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+              <div class="text">
                 <strong>Instagram</strong>
                 <span>Seguinos</span>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.whatsapp.com/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-            <div class="text">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.whatsapp.com/" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+              <div class="text">
                 <strong>WhatsApp</strong>
                 <span>Escribinos</span>
-            </div>
-        </a>
-    </li>
-</ul>
-					</ul>
-				</div>
-			</footer>
-		</div>
-		<script src="script.js"></script>
-	</body>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Script principal -->
+  <script src="script.js"></script>
+</body>
 </html>

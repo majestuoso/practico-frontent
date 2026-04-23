@@ -1,40 +1,16 @@
+// ✅ Cards locales
 const cards = [
-  {
-    title: "cuotas de $370",
-    
-    image: "img/fiat1.jpeg",
-  },
-  {
-    title: "promo bancaria",
-    //description: "This is the description for Card 2.",
-    image: "img/fiat2.jpeg",
-  },
-  {
-    title: "entrega y cuotas fijas!!!!",
-   // description: "This is the description for Card 3.",
-    image: "img/fiat3.jpeg",
-  },
-  {
-    title: "prestamos personales",
-   // description: "This is the description for Card 4.",
-    image: "img/fiat4.jpeg",
-  },
-  {
-    title: "anotate con tu dni",
-   // description: "This is the description for Card 5.",
-    image: "img/fiat5.jpeg",
-  },
-  {
-    title: "test drive",
-   // description: "This is the description for Card 6.",
-    image: "img/fiat6.jpeg",
-  },
+  { title: "cuotas de $370", description: "Financiación accesible en cuotas fijas", image: "img/fiat1.jpeg" },
+  { title: "promo bancaria", description: "Descuentos exclusivos con bancos adheridos", image: "img/fiat2.jpeg" },
+  { title: "entrega y cuotas fijas!!!!", description: "Entrega inmediata y financiación estable", image: "img/fiat3.jpeg" },
+  { title: "prestamos personales", description: "Solicitá tu préstamo para tu auto", image: "img/fiat4.jpeg" },
+  { title: "anotate con tu dni", description: "Solo con tu DNI podés acceder", image: "img/fiat5.jpeg" },
+  { title: "test drive", description: "Probá el auto antes de comprarlo", image: "img/fiat6.jpeg" },
 ];
 
 const cardContainer = document.getElementById("cards");
 
-console.log(cardContainer);
-
+// ✅ Renderizar las cards locales
 cards.forEach((card) => {
   const cardElement = document.createElement("div");
   cardElement.classList.add("card");
@@ -55,17 +31,3 @@ cards.forEach((card) => {
 
   cardContainer.appendChild(cardElement);
 });
-
-// Otra forma de hacerlo es usando innerHTML, pero no es tan recomendable porque puede ser menos seguro y más difícil de mantener. Sin embargo, aquí tienes un ejemplo de cómo hacerlo con innerHTML:
-
-/*
-cards.forEach(card => {
-  cardContainer.innerHTML += `
-    <div class="card">
-      <img src="${card.image}" alt="${card.title}" />
-      <h2>${card.title}</h2>
-      <p>${card.description}</p>
-    </div>
-  `;
-});
-*/
